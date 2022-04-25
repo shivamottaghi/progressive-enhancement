@@ -1,0 +1,33 @@
+.story > p , .conclusion > p{
+    font-size: large;
+    color: #1e4e7a;
+    font-family: Arial,Serif;
+    word-spacing: 5px;
+}
+
+.story > address{
+    font-size: larger;
+    color: #263a59;
+}
+
+.story > h2 , .conclusion > h2 {
+    color: #646097;
+}
+footer > p {
+    font-size: medium;
+    color: #263a59;
+
+}
+footer > p > a{
+    font-size: medium;
+    color: #9d779a;
+}
+
+footer > p > a:hover {
+    font-size: large;
+    color: #b729ff;
+}
+
+/*footer > p > a:visited {
+    color: #3ffff3;
+}*/
