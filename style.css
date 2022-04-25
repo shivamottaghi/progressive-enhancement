@@ -5,7 +5,7 @@
     word-spacing: 5px;
 }
 
-.story > address{
+.authorname{
     font-size: larger;
     color: #263a59;
 }
@@ -27,14 +27,11 @@ footer > p > a:hover, .tablelink{
     font-size: large;
     color: #b729ff;
 }
-/*.biggertable{
-    font-size: 50px;
-    color: #263a59;
-    border: #a79aff solid thick;
-}*/
-.biggertable > tr {
-    border-bottom: ;
+
+body {
+    border: 2px solid #263a59;
+    background-color: #9dc7d4;
+    max-width: 90%;
+    margin-left: 5%;
+    padding: 10px;
 }
-/*footer > p > a:visited {
-    color: #3ffff3;
-}*/
