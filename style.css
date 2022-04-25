@@ -18,14 +18,13 @@ footer > p {
     color: #263a59;
 
 }
-footer > p > a, .tablelink{
+a {
     font-size: medium;
-    color: #9d779a;
+    color: #574154;
 }
-
-footer > p > a:hover, .tablelink{
+a:hover{
     font-size: large;
-    color: #b729ff;
+    color: #916c8c;
 }
 
 /*
@@ -44,5 +43,14 @@ body{
     background-repeat: no-repeat no-repeat;
     background-position: right bottom;
     background-size: cover;
+}
+q{
+    font-style: italic;
+}
 
+.villagers{
+    color: #4a0826;
+}
+.farmer{
+    color: #646a4c;
 }
