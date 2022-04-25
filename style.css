@@ -28,10 +28,21 @@ footer > p > a:hover, .tablelink{
     color: #b729ff;
 }
 
+/*
 body {
     border: 2px solid #263a59;
     background-color: #9dc7d4;
     max-width: 90%;
     margin-left: 5%;
     padding: 10px;
+}*/
+body{
+    max-width: 90%;
+    margin-left: 5%;
+    padding: 10px;
+    background-image: url("images/pinsdaddy-website-backgrounds-1-zellox.jpg");
+    background-repeat: no-repeat no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+
 }
