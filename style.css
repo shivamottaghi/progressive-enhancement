@@ -1,0 +1,101 @@
+.story > p , .conclusion > p{
+    font-size: large;
+    color: #1e4e7a;
+   /* font-family: Arial,Serif;*/
+    word-spacing: 5px;
+}
+
+.authorname{
+    font-size: larger;
+    color: #263a59;
+}
+
+.story > h2 , .conclusion > h2 {
+    color: #646097;
+}
+footer > p {
+    font-size: medium;
+    color: #263a59;
+
+}
+a {
+    font-size: medium;
+    color: #574154;
+}
+a:hover{
+    font-size: large;
+    color: #916c8c;
+}
+
+/*
+body {
+    border: 2px solid #263a59;
+    background-color: #9dc7d4;
+    max-width: 90%;
+    margin-left: 5%;
+    padding: 10px;
+}*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 90%;
+    margin-left: 5%;
+    padding: 10px;
+    background-image: url("images/pinsdaddy-website-backgrounds-1-zellox.jpg");
+    background-repeat: no-repeat no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
+q{
+    font-style: italic;
+}
+
+.villagers{
+    color: #4a0826;
+}
+.farmer{
+    color: #646a4c;
+}
+header > h1 {
+    background-color: yellow;
+}
+header > ul {
+    height: fit-content;
+   /* display: inline;*/
+    margin-left: 50px;
+}
+.mylist {
+    margin-left: 50px;
+}
+.good , .bad{
+    text-transform: capitalize;
+}
+.bad{
+    color: red;
+}
+.good{
+    color: green;
+}
+
+tr:nth-child(even) {
+    background: #CCC;
+}
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+article + p {
+    font-weight: bold;
+}
+img {
+    display: inline;
+    float: left;
+    margin-right: 100px;
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+}
+article{
+    border: 3px solid #263a59;
+    padding: 5px;
+}
