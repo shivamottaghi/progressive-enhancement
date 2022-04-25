@@ -18,16 +18,23 @@ footer > p {
     color: #263a59;
 
 }
-footer > p > a{
+footer > p > a, .tablelink{
     font-size: medium;
     color: #9d779a;
 }
 
-footer > p > a:hover {
+footer > p > a:hover, .tablelink{
     font-size: large;
     color: #b729ff;
 }
-
+/*.biggertable{
+    font-size: 50px;
+    color: #263a59;
+    border: #a79aff solid thick;
+}*/
+.biggertable > tr {
+    border-bottom: ;
+}
 /*footer > p > a:visited {
     color: #3ffff3;
 }*/
