@@ -1,7 +1,7 @@
 .story > p , .conclusion > p{
     font-size: large;
     color: #1e4e7a;
-    font-family: Arial,Serif;
+   /* font-family: Arial,Serif;*/
     word-spacing: 5px;
 }
 
@@ -94,4 +94,8 @@ img {
 @font-face {
     font-family: 'Open Sans', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+}
+article{
+    border: 3px solid #263a59;
+    padding: 5px;
 }
