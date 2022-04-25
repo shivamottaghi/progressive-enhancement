@@ -54,8 +54,16 @@ q{
 .farmer{
     color: #646a4c;
 }
-header > ul {
+header > h1 {
     background-color: yellow;
+}
+header > ul {
+    height: fit-content;
+   /* display: inline;*/
+    margin-left: 50px;
+}
+.mylist {
+    margin-left: 50px;
 }
 .good , .bad{
     text-transform: capitalize;
@@ -76,4 +84,9 @@ tr:nth-child(odd) {
 
 article + p {
     font-weight: bold;
+}
+img {
+    display: inline;
+    float: left;
+    margin-right: 100px;
 }
